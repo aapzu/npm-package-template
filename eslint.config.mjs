@@ -6,13 +6,12 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
-// mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const compat = new FlatCompat({
-  baseDirectory: __dirname, // optional; default: process.cwd()
-  resolvePluginsRelativeTo: __dirname, // optional
+  baseDirectory: __dirname,
+  resolvePluginsRelativeTo: __dirname,
 })
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
