@@ -1,6 +1,6 @@
 {
   "name": "@aapzu/npm-package-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A template for creating npm packages with TypeScript",
   "private": false,
   "main": "dist/index.js",
