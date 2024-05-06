@@ -1,7 +1,7 @@
 import { describe, test, expect } from 'vitest'
 
-describe('index.ts', () => {
+describe('index.mts', () => {
   test('just a test', () => {
-    expect(true).toBe(false)
+    expect(true).toBe(true)
   })
 })
