@@ -30,7 +30,7 @@ pnpm test
 
 ### Prequisites
 
-- `PNPM_TOKEN` has been added into secrets in `https://github.com/<account>/<repo>/settings/secrets/actions`
+- `NPM_TOKEN` has been added into secrets in `https://github.com/<account>/<repo>/settings/secrets/actions`
 
 ### Steps
 To publish, first commit your changes and then run
