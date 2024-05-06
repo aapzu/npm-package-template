@@ -10,5 +10,5 @@ export const tsup: Options = {
   entryPoints: [pkg.main],
   target: 'es2020',
   outDir: 'dist',
-  entry: ['src/**/*.mts'],
+  entry: ['src/**/*.ts'],
 }
