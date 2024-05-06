@@ -4,9 +4,9 @@
   "description": "A template for creating npm packages with TypeScript",
   "main": "dist/index.js",
   "type": "module",
-  "bin": "src/index.mts",
+  "bin": "src/index.ts",
   "scripts": {
-    "start": "tsx src/index.mts",
+    "start": "tsx src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",

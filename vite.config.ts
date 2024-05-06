@@ -4,7 +4,7 @@ export default defineConfig({
   test: {
     globals: true,
     restoreMocks: true,
-    setupFiles: ['./test/setupTests.mts'],
+    setupFiles: ['./test/setupTests.ts'],
     typecheck: {
       enabled: true,
     },
