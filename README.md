@@ -21,13 +21,18 @@ pnpm lint
 ```
 
 ### Testing
-The template is using native Node Test Runner
+The template is using Vitest for testing. Run tests with
 ```
 pnpm test
 ```
 
 ## Publishing
 
+### Prequisites
+
+- `PNPM_TOKEN` has been added into secrets in `https://github.com/<account>/<repo>/settings/secrets/actions`
+
+### Steps
 To publish, first commit your changes and then run
 ```
 pnpm version [major|minor|patch]
